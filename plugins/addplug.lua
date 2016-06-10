@@ -17,7 +17,7 @@ local function run(msg,matches)
     local group = msg.to.id
     if msg.reply_id then
    local name = matches[2]
-      if matches[1] == "addplug" and matches[2] and is_sudo(msg) then
+      if matches[1] == "savepl" and matches[2] and is_sudo(msg) then
 load_document(msg.reply_id, saveplug, {msg=msg,name=name})
         return 'Plugin'..name..'has been saved on plugins/'..name..'.lua'
     end
@@ -25,7 +25,7 @@ end
 end
 return {
   patterns = {
- "^[!/#](addplug) (.*)$",
+ "^([Ss]avepl) (.*)$",
   },
   run = run,
 }
