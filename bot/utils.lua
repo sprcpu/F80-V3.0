@@ -162,6 +162,17 @@ function run_command(str)
 end
 
 -- User has privileges
+function is_silent(msg)
+  local var = false
+  -- Check users id in config
+  for v,user in pairs(_config.silent_users) do
+    if user == msg.from.id then
+      var = true
+    end
+  end
+  return var
+end
+
 function is_sudo(msg)
   local var = false
   -- Check users id in config
