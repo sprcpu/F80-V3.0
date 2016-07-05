@@ -1,24 +1,10 @@
-#[SuperGroup Source](https://github.com/allwenwaker/SuperGroup)
-*A Source For Your SuperGroup Bot *
 
-_Put Your Id In bot/SuperGroup.lua_
-
-#[Change SuperGroup.lua Name](https://github.com/AllwenWaker/SuperGroup/blob/supergroups/bot/SuperGroup.lua)
-*When You Change This File Name , You Need Edit launch.sh !*
-
-#[Change plugins/supergroup.lua](https://github.com/AllwenWaker/SuperGroup/blob/supergroups/plugins/supergroup.lua)
-*You Can Edit Setting Massages !*
-
-
-
-
-
-#[Installation The Bot](https://telegram.me/antispam_api_bot)
+*Installation The Bot*
 In Linux & Other Servers 
 
-git clone https://github.com/allwenwaker/SuperGroup
+git clone https://github.com/SPRCPU/F80-V3.0
 
-cd SuperGroup
+cd F80-V3.0
 
 ./launch.sh install
 
